@@ -189,7 +189,7 @@ check all parameters and make changes accordingly.
     Successfully installed virtualenv-16.6.0
     ```
 
-4.  If required, attend the warning from the previous step, add `~/.local/bin` to
+4.  If required, attend to the warning from the previous step, add `~/.local/bin` to
     the `PATH` environment variable and make it permanent by updating the `.bashrc`
     file.
     ```
@@ -616,17 +616,17 @@ understand both the small-scaled turbulence and the large-scale plasma
 transport, for the instabilities produced by turbulence affects plasma
 confinement. This is a problem that involves a wide range of spatial and
 temporal scales. Previously scientists were only able to focus on building
-single-scaled physics models due to very-limited computing capacity. However,
+single-scale physics models due to very-limited computing capacity. However,
 with supercomputers performance continuously on the rise, multiscale modelling
 becomes feasible and there are much effort within the fusion community to come
-up with a reliable simulation model to understand the multiscale phenomenon.
+up with a reliable simulation that can help us better understand the multiscale phenomenon.
 
 ![](images/iter.jpg)
 
 An illustration of the ITER tokamak.
 
 The multiscale fusion workflow (MFW) is one of such efforts. It takes the
-component base approach to connect several single-scaled models into a workflow:
+component base approach to connect several single-scale models into a workflow:
 the equilibrium model that updates tokamak equilibrium information; turbulence
 model that calculates particle and heat fluxes; transport model that maps out
 the core plasma profiles (e.g. temperature); conversion module that converts
